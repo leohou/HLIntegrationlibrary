@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-
 @interface WSUAppSkin : NSObject
 
 + (instancetype)mainSkin;

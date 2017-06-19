@@ -28,7 +28,6 @@
 		930972271EF7DDD700CCB4AE /* WSUAppSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972111EF7DDD700CCB4AE /* WSUAppSkin.m */; };
 		930972281EF7DDD700CCB4AE /* WSUAppSkin+WSUColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972121EF7DDD700CCB4AE /* WSUAppSkin+WSUColor.m */; };
 		930972291EF7DDD700CCB4AE /* WSUAppSkin+WSUFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972131EF7DDD700CCB4AE /* WSUAppSkin+WSUFont.m */; };
-		9309722A1EF7DDD700CCB4AE /* WSUAppSkin+WSUSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972141EF7DDD700CCB4AE /* WSUAppSkin+WSUSize.m */; };
 		9309722B1EF7DDD700CCB4AE /* WSUITTCommonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 930972151EF7DDD700CCB4AE /* WSUITTCommonMacros.h */; };
 		9309722C1EF7DDD700CCB4AE /* WSUITTUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 930972161EF7DDD700CCB4AE /* WSUITTUtility.h */; };
 		9309722D1EF7DDD700CCB4AE /* WSUITTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972171EF7DDD700CCB4AE /* WSUITTUtility.m */; };
@@ -80,7 +79,6 @@
 		930972111EF7DDD700CCB4AE /* WSUAppSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUAppSkin.m; sourceTree = "<group>"; };
 		930972121EF7DDD700CCB4AE /* WSUAppSkin+WSUColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSUAppSkin+WSUColor.m"; sourceTree = "<group>"; };
 		930972131EF7DDD700CCB4AE /* WSUAppSkin+WSUFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSUAppSkin+WSUFont.m"; sourceTree = "<group>"; };
-		930972141EF7DDD700CCB4AE /* WSUAppSkin+WSUSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSUAppSkin+WSUSize.m"; sourceTree = "<group>"; };
 		930972151EF7DDD700CCB4AE /* WSUITTCommonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUITTCommonMacros.h; sourceTree = "<group>"; };
 		930972161EF7DDD700CCB4AE /* WSUITTUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUITTUtility.h; sourceTree = "<group>"; };
 		930972171EF7DDD700CCB4AE /* WSUITTUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUITTUtility.m; sourceTree = "<group>"; };
@@ -273,7 +271,6 @@
 				930972111EF7DDD700CCB4AE /* WSUAppSkin.m */,
 				930972121EF7DDD700CCB4AE /* WSUAppSkin+WSUColor.m */,
 				930972131EF7DDD700CCB4AE /* WSUAppSkin+WSUFont.m */,
-				930972141EF7DDD700CCB4AE /* WSUAppSkin+WSUSize.m */,
 				930972151EF7DDD700CCB4AE /* WSUITTCommonMacros.h */,
 				930972161EF7DDD700CCB4AE /* WSUITTUtility.h */,
 				930972171EF7DDD700CCB4AE /* WSUITTUtility.m */,
@@ -420,7 +417,6 @@
 			files = (
 				930972271EF7DDD700CCB4AE /* WSUAppSkin.m in Sources */,
 				9309722F1EF7DDD700CCB4AE /* WSUMBProgressHUD.m in Sources */,
-				9309722A1EF7DDD700CCB4AE /* WSUAppSkin+WSUSize.m in Sources */,
 				930972291EF7DDD700CCB4AE /* WSUAppSkin+WSUFont.m in Sources */,
 				9309721D1EF7DDD700CCB4AE /* NSMutableDictionary+WSUKit.m in Sources */,
 				9309721F1EF7DDD700CCB4AE /* NSString+WSUFormat.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "WSUAppSkin.h"
+
 @implementation WSUAppSkin (WSUFont)
 - (UIFont *)systemFontMicro
 {
