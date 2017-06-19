@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HLIntegrationlibrary_Example' do
+  pod 'HLIntegrationlibrary', :path => '../'
+
+  target 'HLIntegrationlibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
