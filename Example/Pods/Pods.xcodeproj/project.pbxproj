@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13FF91F27E3DB9C3C4596605780DBA35 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C1A44C0C7AC60DC62224A4346DF999 /* ReplaceMe.m */; };
 		27797B98A2182901E10D3E73BEFB5DA2 /* Pods-HLIntegrationlibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6CAD32AD24A441084D776445FB32839 /* Pods-HLIntegrationlibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A83521FE75FFE2FFFB4760894CAA4FB /* Pods-HLIntegrationlibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3904DCFC1FF0874316789CA1ED8B1B8A /* Pods-HLIntegrationlibrary_Example-dummy.m */; };
 		46E21E1966F85F535F26B3DE5E85E7D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -15,6 +14,28 @@
 		668020FCD33D7911F7AE9FEBBE7BE2E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		75086319FFC50C82D4FA33AD94ABAEBE /* Pods-HLIntegrationlibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 356B1E2B5631B12A724A7DF005C9AEC1 /* Pods-HLIntegrationlibrary_Tests-dummy.m */; };
 		8F54DD0671B4A23C777417A3131B4523 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9309721C1EF7DDD700CCB4AE /* NSMutableDictionary+WSUKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 930972061EF7DDD700CCB4AE /* NSMutableDictionary+WSUKit.h */; };
+		9309721D1EF7DDD700CCB4AE /* NSMutableDictionary+WSUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972071EF7DDD700CCB4AE /* NSMutableDictionary+WSUKit.m */; };
+		9309721E1EF7DDD700CCB4AE /* NSString+WSUFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 930972081EF7DDD700CCB4AE /* NSString+WSUFormat.h */; };
+		9309721F1EF7DDD700CCB4AE /* NSString+WSUFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972091EF7DDD700CCB4AE /* NSString+WSUFormat.m */; };
+		930972201EF7DDD700CCB4AE /* UIButton+WSUExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9309720A1EF7DDD700CCB4AE /* UIButton+WSUExtensions.h */; };
+		930972211EF7DDD700CCB4AE /* UIButton+WSUExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9309720B1EF7DDD700CCB4AE /* UIButton+WSUExtensions.m */; };
+		930972221EF7DDD700CCB4AE /* UIColor+WSUHexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9309720C1EF7DDD700CCB4AE /* UIColor+WSUHexColor.h */; };
+		930972231EF7DDD700CCB4AE /* UIColor+WSUHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9309720D1EF7DDD700CCB4AE /* UIColor+WSUHexColor.m */; };
+		930972241EF7DDD700CCB4AE /* UIView+WSUFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 9309720E1EF7DDD700CCB4AE /* UIView+WSUFrame.h */; };
+		930972251EF7DDD700CCB4AE /* UIView+WSUFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9309720F1EF7DDD700CCB4AE /* UIView+WSUFrame.m */; };
+		930972261EF7DDD700CCB4AE /* WSUAppSkin.h in Headers */ = {isa = PBXBuildFile; fileRef = 930972101EF7DDD700CCB4AE /* WSUAppSkin.h */; };
+		930972271EF7DDD700CCB4AE /* WSUAppSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972111EF7DDD700CCB4AE /* WSUAppSkin.m */; };
+		930972281EF7DDD700CCB4AE /* WSUAppSkin+WSUColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972121EF7DDD700CCB4AE /* WSUAppSkin+WSUColor.m */; };
+		930972291EF7DDD700CCB4AE /* WSUAppSkin+WSUFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972131EF7DDD700CCB4AE /* WSUAppSkin+WSUFont.m */; };
+		9309722A1EF7DDD700CCB4AE /* WSUAppSkin+WSUSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972141EF7DDD700CCB4AE /* WSUAppSkin+WSUSize.m */; };
+		9309722B1EF7DDD700CCB4AE /* WSUITTCommonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 930972151EF7DDD700CCB4AE /* WSUITTCommonMacros.h */; };
+		9309722C1EF7DDD700CCB4AE /* WSUITTUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 930972161EF7DDD700CCB4AE /* WSUITTUtility.h */; };
+		9309722D1EF7DDD700CCB4AE /* WSUITTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972171EF7DDD700CCB4AE /* WSUITTUtility.m */; };
+		9309722E1EF7DDD700CCB4AE /* WSUMBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 930972181EF7DDD700CCB4AE /* WSUMBProgressHUD.h */; };
+		9309722F1EF7DDD700CCB4AE /* WSUMBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972191EF7DDD700CCB4AE /* WSUMBProgressHUD.m */; };
+		930972301EF7DDD700CCB4AE /* WSUReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 9309721A1EF7DDD700CCB4AE /* WSUReachability.h */; };
+		930972311EF7DDD700CCB4AE /* WSUReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9309721B1EF7DDD700CCB4AE /* WSUReachability.m */; };
 		C912EDDA2F6B94763A861F2A30C48359 /* HLIntegrationlibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C2B7A718605835E6AE8B4403DF0177 /* HLIntegrationlibrary-dummy.m */; };
 		CCC80F135663D33503C141CB6FF2BD76 /* HLIntegrationlibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 866CE343BDC3A31AF103C13694E687C8 /* HLIntegrationlibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -31,24 +52,45 @@
 
 /* Begin PBXFileReference section */
 		072885F8A9CA631BC4CE7A52F44AF553 /* Pods-HLIntegrationlibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLIntegrationlibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		09EC13BE1088BA1D4191A10764BB5741 /* Pods-HLIntegrationlibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HLIntegrationlibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		09EC13BE1088BA1D4191A10764BB5741 /* Pods-HLIntegrationlibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HLIntegrationlibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		356B1E2B5631B12A724A7DF005C9AEC1 /* Pods-HLIntegrationlibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLIntegrationlibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		3904DCFC1FF0874316789CA1ED8B1B8A /* Pods-HLIntegrationlibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLIntegrationlibrary_Example-dummy.m"; sourceTree = "<group>"; };
-		43C1A44C0C7AC60DC62224A4346DF999 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		4748162FDC05150FAA7EBC15145BB040 /* Pods-HLIntegrationlibrary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLIntegrationlibrary_Example-resources.sh"; sourceTree = "<group>"; };
-		5278A53137082114F9D29FA2AA2F97D7 /* HLIntegrationlibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HLIntegrationlibrary.framework; path = HLIntegrationlibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5278A53137082114F9D29FA2AA2F97D7 /* HLIntegrationlibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HLIntegrationlibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5388B1F9E71F69D49F6F13D75ABA8FB5 /* Pods-HLIntegrationlibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLIntegrationlibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		705C14105F7F55F78610382A29425961 /* Pods_HLIntegrationlibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HLIntegrationlibrary_Example.framework; path = "Pods-HLIntegrationlibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		705C14105F7F55F78610382A29425961 /* Pods_HLIntegrationlibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLIntegrationlibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7159EB67DF71C9E9A653708AF2BD71AE /* HLIntegrationlibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLIntegrationlibrary.xcconfig; sourceTree = "<group>"; };
 		84BE46E45461ED72E2EB5382912E5FA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85528D4502B3EECF3CCB344B4BA5EFFC /* HLIntegrationlibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HLIntegrationlibrary.modulemap; sourceTree = "<group>"; };
+		85528D4502B3EECF3CCB344B4BA5EFFC /* HLIntegrationlibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HLIntegrationlibrary.modulemap; sourceTree = "<group>"; };
 		866CE343BDC3A31AF103C13694E687C8 /* HLIntegrationlibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLIntegrationlibrary-umbrella.h"; sourceTree = "<group>"; };
 		88AFD2A1FBBAE9EB0E83F7B5676B6C4E /* Pods-HLIntegrationlibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLIntegrationlibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
 		913622AD8BE1D53B0C4416CD72F34D08 /* Pods-HLIntegrationlibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLIntegrationlibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		930972061EF7DDD700CCB4AE /* NSMutableDictionary+WSUKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+WSUKit.h"; sourceTree = "<group>"; };
+		930972071EF7DDD700CCB4AE /* NSMutableDictionary+WSUKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+WSUKit.m"; sourceTree = "<group>"; };
+		930972081EF7DDD700CCB4AE /* NSString+WSUFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WSUFormat.h"; sourceTree = "<group>"; };
+		930972091EF7DDD700CCB4AE /* NSString+WSUFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WSUFormat.m"; sourceTree = "<group>"; };
+		9309720A1EF7DDD700CCB4AE /* UIButton+WSUExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WSUExtensions.h"; sourceTree = "<group>"; };
+		9309720B1EF7DDD700CCB4AE /* UIButton+WSUExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WSUExtensions.m"; sourceTree = "<group>"; };
+		9309720C1EF7DDD700CCB4AE /* UIColor+WSUHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WSUHexColor.h"; sourceTree = "<group>"; };
+		9309720D1EF7DDD700CCB4AE /* UIColor+WSUHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WSUHexColor.m"; sourceTree = "<group>"; };
+		9309720E1EF7DDD700CCB4AE /* UIView+WSUFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WSUFrame.h"; sourceTree = "<group>"; };
+		9309720F1EF7DDD700CCB4AE /* UIView+WSUFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WSUFrame.m"; sourceTree = "<group>"; };
+		930972101EF7DDD700CCB4AE /* WSUAppSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUAppSkin.h; sourceTree = "<group>"; };
+		930972111EF7DDD700CCB4AE /* WSUAppSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUAppSkin.m; sourceTree = "<group>"; };
+		930972121EF7DDD700CCB4AE /* WSUAppSkin+WSUColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSUAppSkin+WSUColor.m"; sourceTree = "<group>"; };
+		930972131EF7DDD700CCB4AE /* WSUAppSkin+WSUFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSUAppSkin+WSUFont.m"; sourceTree = "<group>"; };
+		930972141EF7DDD700CCB4AE /* WSUAppSkin+WSUSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSUAppSkin+WSUSize.m"; sourceTree = "<group>"; };
+		930972151EF7DDD700CCB4AE /* WSUITTCommonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUITTCommonMacros.h; sourceTree = "<group>"; };
+		930972161EF7DDD700CCB4AE /* WSUITTUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUITTUtility.h; sourceTree = "<group>"; };
+		930972171EF7DDD700CCB4AE /* WSUITTUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUITTUtility.m; sourceTree = "<group>"; };
+		930972181EF7DDD700CCB4AE /* WSUMBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUMBProgressHUD.h; sourceTree = "<group>"; };
+		930972191EF7DDD700CCB4AE /* WSUMBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUMBProgressHUD.m; sourceTree = "<group>"; };
+		9309721A1EF7DDD700CCB4AE /* WSUReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUReachability.h; sourceTree = "<group>"; };
+		9309721B1EF7DDD700CCB4AE /* WSUReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUReachability.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96FC34C3A784941D83E2CD0BBD851F95 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		970CAA209FAE48F941551963BA09F871 /* Pods_HLIntegrationlibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HLIntegrationlibrary_Tests.framework; path = "Pods-HLIntegrationlibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		970CAA209FAE48F941551963BA09F871 /* Pods_HLIntegrationlibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLIntegrationlibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9713150AFA0425333AD41A5FB7CF930A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E5D634E3995116C7DD3637959992AAB /* Pods-HLIntegrationlibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLIntegrationlibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A09EE4C87A3D3B990B7538D37F5B6F2B /* Pods-HLIntegrationlibrary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLIntegrationlibrary_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -58,7 +100,7 @@
 		ACB3CC5B8AC928A80377231E9A04FF2C /* HLIntegrationlibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLIntegrationlibrary-prefix.pch"; sourceTree = "<group>"; };
 		B354A97871980E1131D645FAB6891F8D /* Pods-HLIntegrationlibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLIntegrationlibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B3F8BAD14137AD6DA1C7DD145CC9A6EA /* Pods-HLIntegrationlibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLIntegrationlibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B4A1A1AA5315CE3539901532AE954D92 /* Pods-HLIntegrationlibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HLIntegrationlibrary_Example.modulemap"; sourceTree = "<group>"; };
+		B4A1A1AA5315CE3539901532AE954D92 /* Pods-HLIntegrationlibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HLIntegrationlibrary_Example.modulemap"; sourceTree = "<group>"; };
 		D4C2B7A718605835E6AE8B4403DF0177 /* HLIntegrationlibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HLIntegrationlibrary-dummy.m"; sourceTree = "<group>"; };
 		FC42F383F3DBDE7738A933C74F948504 /* Pods-HLIntegrationlibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLIntegrationlibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FE68F84C8E6CCC963F0F4115EBBCCB51 /* Pods-HLIntegrationlibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HLIntegrationlibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -121,7 +163,6 @@
 			children = (
 				EDD82E6DD0C71113B2C17FFA58AC43F8 /* Classes */,
 			);
-			name = HLIntegrationlibrary;
 			path = HLIntegrationlibrary;
 			sourceTree = "<group>";
 		};
@@ -218,9 +259,29 @@
 		EDD82E6DD0C71113B2C17FFA58AC43F8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				43C1A44C0C7AC60DC62224A4346DF999 /* ReplaceMe.m */,
+				930972061EF7DDD700CCB4AE /* NSMutableDictionary+WSUKit.h */,
+				930972071EF7DDD700CCB4AE /* NSMutableDictionary+WSUKit.m */,
+				930972081EF7DDD700CCB4AE /* NSString+WSUFormat.h */,
+				930972091EF7DDD700CCB4AE /* NSString+WSUFormat.m */,
+				9309720A1EF7DDD700CCB4AE /* UIButton+WSUExtensions.h */,
+				9309720B1EF7DDD700CCB4AE /* UIButton+WSUExtensions.m */,
+				9309720C1EF7DDD700CCB4AE /* UIColor+WSUHexColor.h */,
+				9309720D1EF7DDD700CCB4AE /* UIColor+WSUHexColor.m */,
+				9309720E1EF7DDD700CCB4AE /* UIView+WSUFrame.h */,
+				9309720F1EF7DDD700CCB4AE /* UIView+WSUFrame.m */,
+				930972101EF7DDD700CCB4AE /* WSUAppSkin.h */,
+				930972111EF7DDD700CCB4AE /* WSUAppSkin.m */,
+				930972121EF7DDD700CCB4AE /* WSUAppSkin+WSUColor.m */,
+				930972131EF7DDD700CCB4AE /* WSUAppSkin+WSUFont.m */,
+				930972141EF7DDD700CCB4AE /* WSUAppSkin+WSUSize.m */,
+				930972151EF7DDD700CCB4AE /* WSUITTCommonMacros.h */,
+				930972161EF7DDD700CCB4AE /* WSUITTUtility.h */,
+				930972171EF7DDD700CCB4AE /* WSUITTUtility.m */,
+				930972181EF7DDD700CCB4AE /* WSUMBProgressHUD.h */,
+				930972191EF7DDD700CCB4AE /* WSUMBProgressHUD.m */,
+				9309721A1EF7DDD700CCB4AE /* WSUReachability.h */,
+				9309721B1EF7DDD700CCB4AE /* WSUReachability.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -231,7 +292,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9309722B1EF7DDD700CCB4AE /* WSUITTCommonMacros.h in Headers */,
+				9309721E1EF7DDD700CCB4AE /* NSString+WSUFormat.h in Headers */,
+				9309722E1EF7DDD700CCB4AE /* WSUMBProgressHUD.h in Headers */,
+				930972241EF7DDD700CCB4AE /* UIView+WSUFrame.h in Headers */,
 				CCC80F135663D33503C141CB6FF2BD76 /* HLIntegrationlibrary-umbrella.h in Headers */,
+				9309722C1EF7DDD700CCB4AE /* WSUITTUtility.h in Headers */,
+				930972201EF7DDD700CCB4AE /* UIButton+WSUExtensions.h in Headers */,
+				930972261EF7DDD700CCB4AE /* WSUAppSkin.h in Headers */,
+				9309721C1EF7DDD700CCB4AE /* NSMutableDictionary+WSUKit.h in Headers */,
+				930972301EF7DDD700CCB4AE /* WSUReachability.h in Headers */,
+				930972221EF7DDD700CCB4AE /* UIColor+WSUHexColor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,8 +418,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930972271EF7DDD700CCB4AE /* WSUAppSkin.m in Sources */,
+				9309722F1EF7DDD700CCB4AE /* WSUMBProgressHUD.m in Sources */,
+				9309722A1EF7DDD700CCB4AE /* WSUAppSkin+WSUSize.m in Sources */,
+				930972291EF7DDD700CCB4AE /* WSUAppSkin+WSUFont.m in Sources */,
+				9309721D1EF7DDD700CCB4AE /* NSMutableDictionary+WSUKit.m in Sources */,
+				9309721F1EF7DDD700CCB4AE /* NSString+WSUFormat.m in Sources */,
+				930972311EF7DDD700CCB4AE /* WSUReachability.m in Sources */,
 				C912EDDA2F6B94763A861F2A30C48359 /* HLIntegrationlibrary-dummy.m in Sources */,
-				13FF91F27E3DB9C3C4596605780DBA35 /* ReplaceMe.m in Sources */,
+				930972211EF7DDD700CCB4AE /* UIButton+WSUExtensions.m in Sources */,
+				930972251EF7DDD700CCB4AE /* UIView+WSUFrame.m in Sources */,
+				930972281EF7DDD700CCB4AE /* WSUAppSkin+WSUColor.m in Sources */,
+				9309722D1EF7DDD700CCB4AE /* WSUITTUtility.m in Sources */,
+				930972231EF7DDD700CCB4AE /* UIColor+WSUHexColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

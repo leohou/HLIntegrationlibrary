@@ -7,6 +7,7 @@
 //
 
 #import "WSUAppSkin.h"
+#import "UIColor+WSUHexColor.h"
 @implementation WSUAppSkin (WSUSize)
 - (UIColor *)contentColorYellow1
 {
