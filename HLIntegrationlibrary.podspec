@@ -37,6 +37,13 @@ s.source_files = 'Example/HLIntegrationlibrary/Classes/**/*'
 s.libraries = 'z'
 #s.xcconfig = {'HEADER_SEARCH_PATHS' =>'$(SDKROOT)/usr/include'}
 #s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/usr/include/CommonCrypto/CommonDigest.h"' }
+"xcconfig":{
+
+"LIBRARY_SEARCH_PATHS" : "\"$(PODS_ROOT)/usr/include/**\"",
+"HEADER_SEARCH_PATHS" :"\"$(PODS_ROOT)/usr\"",
+"OTHER_LDFLAGS":"-lz"
+
+}
   # s.resource_bundles = {
   #   'HLIntegrationlibrary' => ['HLIntegrationlibrary/Assets/*.png']
   # }
