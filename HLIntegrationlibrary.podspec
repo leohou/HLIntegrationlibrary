@@ -31,8 +31,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'HLIntegrationlibrary/Classes/**/*'
-  s.library = 'libz'// 设置只依赖一个系统的library
-# s.libraries = 'libz', 'xml2' // 设置依赖多个系统的library
+#// 设置只依赖一个系统的library
+  s.library = 'libz'
+# s.libraries = 'libz', 'xml2' # 设置依赖多个系统的library
   s.xcconfig = {'HEADER_SEARCH_PATHS' =>'$(SDKROOT)/usr/include'}
 
   # s.resource_bundles = {
