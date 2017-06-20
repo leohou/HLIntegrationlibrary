@@ -24,8 +24,6 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		930972881EF8EB3A00CCB4AE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 930972871EF8EB3A00CCB4AE /* libz.tbd */; };
-		930973001EF9016700CCB4AE /* HL_WSUKeyChainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972DE1EF9016700CCB4AE /* HL_WSUKeyChainHelper.m */; };
-		930973011EF9016700CCB4AE /* HL_WSUSystemUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972E01EF9016700CCB4AE /* HL_WSUSystemUtils.m */; };
 		930973021EF9016700CCB4AE /* NSArray+WSUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972E21EF9016700CCB4AE /* NSArray+WSUKit.m */; };
 		930973031EF9016700CCB4AE /* NSMutableDictionary+WSUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972E41EF9016700CCB4AE /* NSMutableDictionary+WSUKit.m */; };
 		930973041EF9016700CCB4AE /* NSObject+WSUNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972E61EF9016700CCB4AE /* NSObject+WSUNull.m */; };
@@ -84,10 +82,6 @@
 		76E8C8BA584AC55F33BAF821 /* HLIntegrationlibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HLIntegrationlibrary.podspec; path = ../HLIntegrationlibrary.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		930972871EF8EB3A00CCB4AE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		930972DD1EF9016700CCB4AE /* HL_WSUKeyChainHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HL_WSUKeyChainHelper.h; sourceTree = "<group>"; };
-		930972DE1EF9016700CCB4AE /* HL_WSUKeyChainHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HL_WSUKeyChainHelper.m; sourceTree = "<group>"; };
-		930972DF1EF9016700CCB4AE /* HL_WSUSystemUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HL_WSUSystemUtils.h; sourceTree = "<group>"; };
-		930972E01EF9016700CCB4AE /* HL_WSUSystemUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HL_WSUSystemUtils.m; sourceTree = "<group>"; };
 		930972E11EF9016700CCB4AE /* NSArray+WSUKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WSUKit.h"; sourceTree = "<group>"; };
 		930972E21EF9016700CCB4AE /* NSArray+WSUKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WSUKit.m"; sourceTree = "<group>"; };
 		930972E31EF9016700CCB4AE /* NSMutableDictionary+WSUKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+WSUKit.h"; sourceTree = "<group>"; };
@@ -246,10 +240,6 @@
 		930972DC1EF9016700CCB4AE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				930972DD1EF9016700CCB4AE /* HL_WSUKeyChainHelper.h */,
-				930972DE1EF9016700CCB4AE /* HL_WSUKeyChainHelper.m */,
-				930972DF1EF9016700CCB4AE /* HL_WSUSystemUtils.h */,
-				930972E01EF9016700CCB4AE /* HL_WSUSystemUtils.m */,
 				930972E11EF9016700CCB4AE /* NSArray+WSUKit.h */,
 				930972E21EF9016700CCB4AE /* NSArray+WSUKit.m */,
 				930972E31EF9016700CCB4AE /* NSMutableDictionary+WSUKit.h */,
@@ -500,12 +490,10 @@
 				6003F5A7195388D20070C39A /* HL_ViewController.m in Sources */,
 				930973091EF9016700CCB4AE /* UIImage+HL_Compress.m in Sources */,
 				930973041EF9016700CCB4AE /* NSObject+WSUNull.m in Sources */,
-				930973011EF9016700CCB4AE /* HL_WSUSystemUtils.m in Sources */,
 				930973061EF9016700CCB4AE /* UIButton+WSUExtensions.m in Sources */,
 				930973031EF9016700CCB4AE /* NSMutableDictionary+WSUKit.m in Sources */,
 				930973021EF9016700CCB4AE /* NSArray+WSUKit.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				930973001EF9016700CCB4AE /* HL_WSUKeyChainHelper.m in Sources */,
 				9309730E1EF9016700CCB4AE /* WSUAppSkin.m in Sources */,
 				930973111EF9016700CCB4AE /* WSUReachability.m in Sources */,
 				930973081EF9016700CCB4AE /* UIDevice+HL_WSUKit.m in Sources */,
