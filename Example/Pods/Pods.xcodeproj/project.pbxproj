@@ -45,8 +45,6 @@
 		930972941EF8EEF100CCB4AE /* HL_WSUKeyChainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9309728A1EF8EEF100CCB4AE /* HL_WSUKeyChainHelper.m */; };
 		930972951EF8EEF100CCB4AE /* HL_WSUSystemUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9309728B1EF8EEF100CCB4AE /* HL_WSUSystemUtils.h */; };
 		930972961EF8EEF100CCB4AE /* HL_WSUSystemUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9309728C1EF8EEF100CCB4AE /* HL_WSUSystemUtils.m */; };
-		930972971EF8EEF100CCB4AE /* NSData+HL_WSUKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9309728D1EF8EEF100CCB4AE /* NSData+HL_WSUKit.h */; };
-		930972981EF8EEF100CCB4AE /* NSData+HL_WSUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9309728E1EF8EEF100CCB4AE /* NSData+HL_WSUKit.m */; };
 		930972991EF8EEF100CCB4AE /* UIDevice+HL_WSUKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9309728F1EF8EEF100CCB4AE /* UIDevice+HL_WSUKit.h */; };
 		9309729A1EF8EEF100CCB4AE /* UIDevice+HL_WSUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972901EF8EEF100CCB4AE /* UIDevice+HL_WSUKit.m */; };
 		9309729B1EF8EEF100CCB4AE /* UIImage+HL_Compress.h in Headers */ = {isa = PBXBuildFile; fileRef = 930972911EF8EEF100CCB4AE /* UIImage+HL_Compress.h */; };
@@ -112,8 +110,6 @@
 		9309728A1EF8EEF100CCB4AE /* HL_WSUKeyChainHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HL_WSUKeyChainHelper.m; sourceTree = "<group>"; };
 		9309728B1EF8EEF100CCB4AE /* HL_WSUSystemUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HL_WSUSystemUtils.h; sourceTree = "<group>"; };
 		9309728C1EF8EEF100CCB4AE /* HL_WSUSystemUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HL_WSUSystemUtils.m; sourceTree = "<group>"; };
-		9309728D1EF8EEF100CCB4AE /* NSData+HL_WSUKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+HL_WSUKit.h"; sourceTree = "<group>"; };
-		9309728E1EF8EEF100CCB4AE /* NSData+HL_WSUKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+HL_WSUKit.m"; sourceTree = "<group>"; };
 		9309728F1EF8EEF100CCB4AE /* UIDevice+HL_WSUKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HL_WSUKit.h"; sourceTree = "<group>"; };
 		930972901EF8EEF100CCB4AE /* UIDevice+HL_WSUKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HL_WSUKit.m"; sourceTree = "<group>"; };
 		930972911EF8EEF100CCB4AE /* UIImage+HL_Compress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HL_Compress.h"; sourceTree = "<group>"; };
@@ -293,8 +289,6 @@
 				9309728A1EF8EEF100CCB4AE /* HL_WSUKeyChainHelper.m */,
 				9309728B1EF8EEF100CCB4AE /* HL_WSUSystemUtils.h */,
 				9309728C1EF8EEF100CCB4AE /* HL_WSUSystemUtils.m */,
-				9309728D1EF8EEF100CCB4AE /* NSData+HL_WSUKit.h */,
-				9309728E1EF8EEF100CCB4AE /* NSData+HL_WSUKit.m */,
 				9309728F1EF8EEF100CCB4AE /* UIDevice+HL_WSUKit.h */,
 				930972901EF8EEF100CCB4AE /* UIDevice+HL_WSUKit.m */,
 				930972911EF8EEF100CCB4AE /* UIImage+HL_Compress.h */,
@@ -344,7 +338,6 @@
 				930972931EF8EEF100CCB4AE /* HL_WSUKeyChainHelper.h in Headers */,
 				CCC80F135663D33503C141CB6FF2BD76 /* HLIntegrationlibrary-umbrella.h in Headers */,
 				9309722C1EF7DDD700CCB4AE /* WSUITTUtility.h in Headers */,
-				930972971EF8EEF100CCB4AE /* NSData+HL_WSUKit.h in Headers */,
 				930972201EF7DDD700CCB4AE /* UIButton+WSUExtensions.h in Headers */,
 				930972991EF8EEF100CCB4AE /* UIDevice+HL_WSUKit.h in Headers */,
 				930972261EF7DDD700CCB4AE /* WSUAppSkin.h in Headers */,
@@ -482,7 +475,6 @@
 				930972211EF7DDD700CCB4AE /* UIButton+WSUExtensions.m in Sources */,
 				930972351EF8C4F100CCB4AE /* NSArray+WSUKit.m in Sources */,
 				930972251EF7DDD700CCB4AE /* UIView+WSUFrame.m in Sources */,
-				930972981EF8EEF100CCB4AE /* NSData+HL_WSUKit.m in Sources */,
 				930972961EF8EEF100CCB4AE /* HL_WSUSystemUtils.m in Sources */,
 				9309723C1EF8C71D00CCB4AE /* NSObject+WSUNull.m in Sources */,
 				930972281EF7DDD700CCB4AE /* WSUAppSkin+WSUColor.m in Sources */,
