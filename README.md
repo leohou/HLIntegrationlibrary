@@ -29,7 +29,7 @@ leohou, 18801024669@163.com
 HLIntegrationlibrary is available under the MIT license. See the LICENSE file for more info.
 
 ## fork 说明
-为防止在使用中出现重复文件 请在创建类或者全局变量时前边添加前缀来确保唯一性 我这个使用的前缀是WSU 希望最好能跟这个保持一致当然如果能保证唯一性不跟我这个一样也可以 另代码存放目录用pod打开 HLIntegrationlibrary->HLIntegrationlibrary->Classes 下 所以的文件都要放到这个目录下
+为防止在使用中出现重复文件 请在创建类或者全局变量时前边添加前缀来确保唯一性 我这个使用的前缀是WSU 希望最好能跟这个保持一致当然如果能保证唯一性不跟我这个一样也可以 另代码存放目录s.source_files = 'Example/HLIntegrationlibrary/Classes/ 所有的的文件都要放到这个目录下
 
 
 
