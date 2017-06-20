@@ -27,3 +27,10 @@ leohou, houli@wesai.com
 ## License
 
 HLIntegrationlibrary is available under the MIT license. See the LICENSE file for more info.
+
+##fork 说明
+为防止在使用中出现重复文件 请在创建类或者全局变量时前边添加前缀来确保唯一性 我这个使用的前缀是WSU 希望最好能跟这个保持一致当然如果能保证唯一性不跟我这个一样也可以
+
+
+
+
