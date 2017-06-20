@@ -42,6 +42,6 @@ s.source_files = 'Example/HLIntegrationlibrary/Classes/**/*'
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'SystemConfiguration', 'UIKit', 'Security', 'CoreGraphics'
+  s.frameworks = 'SystemConfiguration', 'UIKit', 'Security', 'CoreGraphics','CoreTelephony','AdSupport'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
