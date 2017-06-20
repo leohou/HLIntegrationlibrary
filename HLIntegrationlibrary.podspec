@@ -35,12 +35,12 @@ TODO: Add long description of the pod here.
   s.library = 'z'
 # s.libraries = 'z', 'xml2' # 设置依赖多个系统的library
 #s.xcconfig = {'HEADER_SEARCH_PATHS' =>'$(SDKROOT)/usr/include'}
-s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/usr/include/**/*"' }
+s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/usr/include"' }
   # s.resource_bundles = {
   #   'HLIntegrationlibrary' => ['HLIntegrationlibrary/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'Security', 'SystemConfiguration'
+  s.frameworks = 'SystemConfiguration', 'UIKit', 'Security', 'CoreGraphics'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
