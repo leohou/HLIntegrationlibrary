@@ -7,7 +7,7 @@
 //
 
 #import "HL_ViewController.h"
-
+#import "NSData+HL_WSUKit.h"
 @interface HL_ViewController ()
 
 @end
@@ -17,6 +17,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+
+    [NSData dataByGzippingData:nil];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
