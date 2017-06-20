@@ -136,6 +136,7 @@
 		6003F593195388D20070C39A /* Example for HLIntegrationlibrary */ = {
 			isa = PBXGroup;
 			children = (
+				9309729D1EF8FE3E00CCB4AE /* HLIntegrationlibrary */,
 				6003F59C195388D20070C39A /* HL_AppDelegate.h */,
 				6003F59D195388D20070C39A /* HL_AppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -187,6 +188,29 @@
 				3AF3D6532301E67A2BA94F38 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		9309729D1EF8FE3E00CCB4AE /* HLIntegrationlibrary */ = {
+			isa = PBXGroup;
+			children = (
+				9309729E1EF8FE3E00CCB4AE /* Assets */,
+				9309729F1EF8FE3E00CCB4AE /* Classes */,
+			);
+			path = HLIntegrationlibrary;
+			sourceTree = "<group>";
+		};
+		9309729E1EF8FE3E00CCB4AE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9309729F1EF8FE3E00CCB4AE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		CD2489294ED73ACF37507BFF /* Pods */ = {
