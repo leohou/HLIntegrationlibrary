@@ -31,12 +31,15 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'HLIntegrationlibrary/Classes/**/*'
-  s.exclude_files =
+  s.library = 'libz'// 设置只依赖一个系统的library
+# s.libraries = 'libz', 'xml2' // 设置依赖多个系统的library
+  s.xcconfig = {'HEADER_SEARCH_PATHS' =>'$(SDKROOT)/usr/include'}
+
   # s.resource_bundles = {
   #   'HLIntegrationlibrary' => ['HLIntegrationlibrary/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'Security', 'SystemConfiguration','usr/includ'
+  # s.frameworks = 'UIKit', 'Security', 'SystemConfiguration','usr/inclu'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
