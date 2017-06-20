@@ -24,6 +24,26 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		930972881EF8EB3A00CCB4AE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 930972871EF8EB3A00CCB4AE /* libz.tbd */; };
+		930972C81EF8FEFA00CCB4AE /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 930972A21EF8FEFA00CCB4AE /* .gitkeep */; };
+		930972C91EF8FEFA00CCB4AE /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 930972A41EF8FEFA00CCB4AE /* .gitkeep */; };
+		930972CA1EF8FEFA00CCB4AE /* HL_WSUKeyChainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972A61EF8FEFA00CCB4AE /* HL_WSUKeyChainHelper.m */; };
+		930972CB1EF8FEFA00CCB4AE /* HL_WSUSystemUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972A81EF8FEFA00CCB4AE /* HL_WSUSystemUtils.m */; };
+		930972CC1EF8FEFA00CCB4AE /* NSArray+WSUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972AA1EF8FEFA00CCB4AE /* NSArray+WSUKit.m */; };
+		930972CD1EF8FEFA00CCB4AE /* NSMutableDictionary+WSUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972AC1EF8FEFA00CCB4AE /* NSMutableDictionary+WSUKit.m */; };
+		930972CE1EF8FEFA00CCB4AE /* NSObject+WSUNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972AE1EF8FEFA00CCB4AE /* NSObject+WSUNull.m */; };
+		930972CF1EF8FEFA00CCB4AE /* NSString+WSUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972B01EF8FEFA00CCB4AE /* NSString+WSUKit.m */; };
+		930972D01EF8FEFA00CCB4AE /* UIButton+WSUExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972B21EF8FEFA00CCB4AE /* UIButton+WSUExtensions.m */; };
+		930972D11EF8FEFA00CCB4AE /* UIColor+WSUHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972B41EF8FEFA00CCB4AE /* UIColor+WSUHexColor.m */; };
+		930972D21EF8FEFA00CCB4AE /* UIDevice+HL_WSUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972B61EF8FEFA00CCB4AE /* UIDevice+HL_WSUKit.m */; };
+		930972D31EF8FEFA00CCB4AE /* UIImage+HL_Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972B81EF8FEFA00CCB4AE /* UIImage+HL_Compress.m */; };
+		930972D41EF8FEFA00CCB4AE /* UIView+WSUFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972BA1EF8FEFA00CCB4AE /* UIView+WSUFrame.m */; };
+		930972D51EF8FEFA00CCB4AE /* UIView+WSUViewKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972BC1EF8FEFA00CCB4AE /* UIView+WSUViewKit.m */; };
+		930972D61EF8FEFA00CCB4AE /* WSUAppSkin+WSUColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972BD1EF8FEFA00CCB4AE /* WSUAppSkin+WSUColor.m */; };
+		930972D71EF8FEFA00CCB4AE /* WSUAppSkin+WSUFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972BE1EF8FEFA00CCB4AE /* WSUAppSkin+WSUFont.m */; };
+		930972D81EF8FEFA00CCB4AE /* WSUAppSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972C01EF8FEFA00CCB4AE /* WSUAppSkin.m */; };
+		930972D91EF8FEFA00CCB4AE /* WSUITTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972C31EF8FEFA00CCB4AE /* WSUITTUtility.m */; };
+		930972DA1EF8FEFA00CCB4AE /* WSUMBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972C51EF8FEFA00CCB4AE /* WSUMBProgressHUD.m */; };
+		930972DB1EF8FEFA00CCB4AE /* WSUReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972C71EF8FEFA00CCB4AE /* WSUReachability.m */; };
 		EA5466173E13F60E6B8286AA /* Pods_HLIntegrationlibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD742DE107C351841DDEAEA /* Pods_HLIntegrationlibrary_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +86,43 @@
 		76E8C8BA584AC55F33BAF821 /* HLIntegrationlibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HLIntegrationlibrary.podspec; path = ../HLIntegrationlibrary.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		930972871EF8EB3A00CCB4AE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		930972A21EF8FEFA00CCB4AE /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		930972A41EF8FEFA00CCB4AE /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		930972A51EF8FEFA00CCB4AE /* HL_WSUKeyChainHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HL_WSUKeyChainHelper.h; sourceTree = "<group>"; };
+		930972A61EF8FEFA00CCB4AE /* HL_WSUKeyChainHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HL_WSUKeyChainHelper.m; sourceTree = "<group>"; };
+		930972A71EF8FEFA00CCB4AE /* HL_WSUSystemUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HL_WSUSystemUtils.h; sourceTree = "<group>"; };
+		930972A81EF8FEFA00CCB4AE /* HL_WSUSystemUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HL_WSUSystemUtils.m; sourceTree = "<group>"; };
+		930972A91EF8FEFA00CCB4AE /* NSArray+WSUKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WSUKit.h"; sourceTree = "<group>"; };
+		930972AA1EF8FEFA00CCB4AE /* NSArray+WSUKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WSUKit.m"; sourceTree = "<group>"; };
+		930972AB1EF8FEFA00CCB4AE /* NSMutableDictionary+WSUKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+WSUKit.h"; sourceTree = "<group>"; };
+		930972AC1EF8FEFA00CCB4AE /* NSMutableDictionary+WSUKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+WSUKit.m"; sourceTree = "<group>"; };
+		930972AD1EF8FEFA00CCB4AE /* NSObject+WSUNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WSUNull.h"; sourceTree = "<group>"; };
+		930972AE1EF8FEFA00CCB4AE /* NSObject+WSUNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WSUNull.m"; sourceTree = "<group>"; };
+		930972AF1EF8FEFA00CCB4AE /* NSString+WSUKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WSUKit.h"; sourceTree = "<group>"; };
+		930972B01EF8FEFA00CCB4AE /* NSString+WSUKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WSUKit.m"; sourceTree = "<group>"; };
+		930972B11EF8FEFA00CCB4AE /* UIButton+WSUExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WSUExtensions.h"; sourceTree = "<group>"; };
+		930972B21EF8FEFA00CCB4AE /* UIButton+WSUExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WSUExtensions.m"; sourceTree = "<group>"; };
+		930972B31EF8FEFA00CCB4AE /* UIColor+WSUHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WSUHexColor.h"; sourceTree = "<group>"; };
+		930972B41EF8FEFA00CCB4AE /* UIColor+WSUHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WSUHexColor.m"; sourceTree = "<group>"; };
+		930972B51EF8FEFA00CCB4AE /* UIDevice+HL_WSUKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HL_WSUKit.h"; sourceTree = "<group>"; };
+		930972B61EF8FEFA00CCB4AE /* UIDevice+HL_WSUKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HL_WSUKit.m"; sourceTree = "<group>"; };
+		930972B71EF8FEFA00CCB4AE /* UIImage+HL_Compress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HL_Compress.h"; sourceTree = "<group>"; };
+		930972B81EF8FEFA00CCB4AE /* UIImage+HL_Compress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HL_Compress.m"; sourceTree = "<group>"; };
+		930972B91EF8FEFA00CCB4AE /* UIView+WSUFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WSUFrame.h"; sourceTree = "<group>"; };
+		930972BA1EF8FEFA00CCB4AE /* UIView+WSUFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WSUFrame.m"; sourceTree = "<group>"; };
+		930972BB1EF8FEFA00CCB4AE /* UIView+WSUViewKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WSUViewKit.h"; sourceTree = "<group>"; };
+		930972BC1EF8FEFA00CCB4AE /* UIView+WSUViewKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WSUViewKit.m"; sourceTree = "<group>"; };
+		930972BD1EF8FEFA00CCB4AE /* WSUAppSkin+WSUColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSUAppSkin+WSUColor.m"; sourceTree = "<group>"; };
+		930972BE1EF8FEFA00CCB4AE /* WSUAppSkin+WSUFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSUAppSkin+WSUFont.m"; sourceTree = "<group>"; };
+		930972BF1EF8FEFA00CCB4AE /* WSUAppSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUAppSkin.h; sourceTree = "<group>"; };
+		930972C01EF8FEFA00CCB4AE /* WSUAppSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUAppSkin.m; sourceTree = "<group>"; };
+		930972C11EF8FEFA00CCB4AE /* WSUITTCommonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUITTCommonMacros.h; sourceTree = "<group>"; };
+		930972C21EF8FEFA00CCB4AE /* WSUITTUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUITTUtility.h; sourceTree = "<group>"; };
+		930972C31EF8FEFA00CCB4AE /* WSUITTUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUITTUtility.m; sourceTree = "<group>"; };
+		930972C41EF8FEFA00CCB4AE /* WSUMBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUMBProgressHUD.h; sourceTree = "<group>"; };
+		930972C51EF8FEFA00CCB4AE /* WSUMBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUMBProgressHUD.m; sourceTree = "<group>"; };
+		930972C61EF8FEFA00CCB4AE /* WSUReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUReachability.h; sourceTree = "<group>"; };
+		930972C71EF8FEFA00CCB4AE /* WSUReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUReachability.m; sourceTree = "<group>"; };
 		9AD742DE107C351841DDEAEA /* Pods_HLIntegrationlibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLIntegrationlibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B339BB194617C4087F3F6D7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CE0F37605D1A6D1A6CE5BB1E /* Pods-HLIntegrationlibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLIntegrationlibrary_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLIntegrationlibrary_Tests/Pods-HLIntegrationlibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,7 +193,7 @@
 		6003F593195388D20070C39A /* Example for HLIntegrationlibrary */ = {
 			isa = PBXGroup;
 			children = (
-				9309729D1EF8FE3E00CCB4AE /* HLIntegrationlibrary */,
+				930972A01EF8FEFA00CCB4AE /* HLIntegrationlibrary */,
 				6003F59C195388D20070C39A /* HL_AppDelegate.h */,
 				6003F59D195388D20070C39A /* HL_AppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -190,25 +247,63 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		9309729D1EF8FE3E00CCB4AE /* HLIntegrationlibrary */ = {
+		930972A01EF8FEFA00CCB4AE /* HLIntegrationlibrary */ = {
 			isa = PBXGroup;
 			children = (
-				9309729E1EF8FE3E00CCB4AE /* Assets */,
-				9309729F1EF8FE3E00CCB4AE /* Classes */,
+				930972A11EF8FEFA00CCB4AE /* Assets */,
+				930972A31EF8FEFA00CCB4AE /* Classes */,
 			);
-			path = HLIntegrationlibrary;
+			name = HLIntegrationlibrary;
+			path = ../../HLIntegrationlibrary;
 			sourceTree = "<group>";
 		};
-		9309729E1EF8FE3E00CCB4AE /* Assets */ = {
+		930972A11EF8FEFA00CCB4AE /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				930972A21EF8FEFA00CCB4AE /* .gitkeep */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		9309729F1EF8FE3E00CCB4AE /* Classes */ = {
+		930972A31EF8FEFA00CCB4AE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				930972A41EF8FEFA00CCB4AE /* .gitkeep */,
+				930972A51EF8FEFA00CCB4AE /* HL_WSUKeyChainHelper.h */,
+				930972A61EF8FEFA00CCB4AE /* HL_WSUKeyChainHelper.m */,
+				930972A71EF8FEFA00CCB4AE /* HL_WSUSystemUtils.h */,
+				930972A81EF8FEFA00CCB4AE /* HL_WSUSystemUtils.m */,
+				930972A91EF8FEFA00CCB4AE /* NSArray+WSUKit.h */,
+				930972AA1EF8FEFA00CCB4AE /* NSArray+WSUKit.m */,
+				930972AB1EF8FEFA00CCB4AE /* NSMutableDictionary+WSUKit.h */,
+				930972AC1EF8FEFA00CCB4AE /* NSMutableDictionary+WSUKit.m */,
+				930972AD1EF8FEFA00CCB4AE /* NSObject+WSUNull.h */,
+				930972AE1EF8FEFA00CCB4AE /* NSObject+WSUNull.m */,
+				930972AF1EF8FEFA00CCB4AE /* NSString+WSUKit.h */,
+				930972B01EF8FEFA00CCB4AE /* NSString+WSUKit.m */,
+				930972B11EF8FEFA00CCB4AE /* UIButton+WSUExtensions.h */,
+				930972B21EF8FEFA00CCB4AE /* UIButton+WSUExtensions.m */,
+				930972B31EF8FEFA00CCB4AE /* UIColor+WSUHexColor.h */,
+				930972B41EF8FEFA00CCB4AE /* UIColor+WSUHexColor.m */,
+				930972B51EF8FEFA00CCB4AE /* UIDevice+HL_WSUKit.h */,
+				930972B61EF8FEFA00CCB4AE /* UIDevice+HL_WSUKit.m */,
+				930972B71EF8FEFA00CCB4AE /* UIImage+HL_Compress.h */,
+				930972B81EF8FEFA00CCB4AE /* UIImage+HL_Compress.m */,
+				930972B91EF8FEFA00CCB4AE /* UIView+WSUFrame.h */,
+				930972BA1EF8FEFA00CCB4AE /* UIView+WSUFrame.m */,
+				930972BB1EF8FEFA00CCB4AE /* UIView+WSUViewKit.h */,
+				930972BC1EF8FEFA00CCB4AE /* UIView+WSUViewKit.m */,
+				930972BD1EF8FEFA00CCB4AE /* WSUAppSkin+WSUColor.m */,
+				930972BE1EF8FEFA00CCB4AE /* WSUAppSkin+WSUFont.m */,
+				930972BF1EF8FEFA00CCB4AE /* WSUAppSkin.h */,
+				930972C01EF8FEFA00CCB4AE /* WSUAppSkin.m */,
+				930972C11EF8FEFA00CCB4AE /* WSUITTCommonMacros.h */,
+				930972C21EF8FEFA00CCB4AE /* WSUITTUtility.h */,
+				930972C31EF8FEFA00CCB4AE /* WSUITTUtility.m */,
+				930972C41EF8FEFA00CCB4AE /* WSUMBProgressHUD.h */,
+				930972C51EF8FEFA00CCB4AE /* WSUMBProgressHUD.m */,
+				930972C61EF8FEFA00CCB4AE /* WSUReachability.h */,
+				930972C71EF8FEFA00CCB4AE /* WSUReachability.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -309,6 +404,8 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				930972C81EF8FEFA00CCB4AE /* .gitkeep in Resources */,
+				930972C91EF8FEFA00CCB4AE /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -423,8 +520,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* HL_AppDelegate.m in Sources */,
+				930972CF1EF8FEFA00CCB4AE /* NSString+WSUKit.m in Sources */,
+				930972D41EF8FEFA00CCB4AE /* UIView+WSUFrame.m in Sources */,
 				6003F5A7195388D20070C39A /* HL_ViewController.m in Sources */,
+				930972D31EF8FEFA00CCB4AE /* UIImage+HL_Compress.m in Sources */,
+				930972CE1EF8FEFA00CCB4AE /* NSObject+WSUNull.m in Sources */,
+				930972CB1EF8FEFA00CCB4AE /* HL_WSUSystemUtils.m in Sources */,
+				930972D01EF8FEFA00CCB4AE /* UIButton+WSUExtensions.m in Sources */,
+				930972CD1EF8FEFA00CCB4AE /* NSMutableDictionary+WSUKit.m in Sources */,
+				930972CC1EF8FEFA00CCB4AE /* NSArray+WSUKit.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				930972CA1EF8FEFA00CCB4AE /* HL_WSUKeyChainHelper.m in Sources */,
+				930972D81EF8FEFA00CCB4AE /* WSUAppSkin.m in Sources */,
+				930972DB1EF8FEFA00CCB4AE /* WSUReachability.m in Sources */,
+				930972D21EF8FEFA00CCB4AE /* UIDevice+HL_WSUKit.m in Sources */,
+				930972D51EF8FEFA00CCB4AE /* UIView+WSUViewKit.m in Sources */,
+				930972D61EF8FEFA00CCB4AE /* WSUAppSkin+WSUColor.m in Sources */,
+				930972D71EF8FEFA00CCB4AE /* WSUAppSkin+WSUFont.m in Sources */,
+				930972DA1EF8FEFA00CCB4AE /* WSUMBProgressHUD.m in Sources */,
+				930972D91EF8FEFA00CCB4AE /* WSUITTUtility.m in Sources */,
+				930972D11EF8FEFA00CCB4AE /* UIColor+WSUHexColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
