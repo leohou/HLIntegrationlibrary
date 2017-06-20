@@ -40,6 +40,7 @@
 		9309730F1EF9016700CCB4AE /* WSUITTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972FB1EF9016700CCB4AE /* WSUITTUtility.m */; };
 		930973101EF9016700CCB4AE /* WSUMBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972FD1EF9016700CCB4AE /* WSUMBProgressHUD.m */; };
 		930973111EF9016700CCB4AE /* WSUReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972FF1EF9016700CCB4AE /* WSUReachability.m */; };
+		930973171EF90D0300CCB4AE /* HL_WSUKeyChainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 930973161EF90D0300CCB4AE /* HL_WSUKeyChainHelper.m */; };
 		EA5466173E13F60E6B8286AA /* Pods_HLIntegrationlibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD742DE107C351841DDEAEA /* Pods_HLIntegrationlibrary_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -113,6 +114,8 @@
 		930972FD1EF9016700CCB4AE /* WSUMBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUMBProgressHUD.m; sourceTree = "<group>"; };
 		930972FE1EF9016700CCB4AE /* WSUReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUReachability.h; sourceTree = "<group>"; };
 		930972FF1EF9016700CCB4AE /* WSUReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUReachability.m; sourceTree = "<group>"; };
+		930973151EF90D0300CCB4AE /* HL_WSUKeyChainHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HL_WSUKeyChainHelper.h; sourceTree = "<group>"; };
+		930973161EF90D0300CCB4AE /* HL_WSUKeyChainHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HL_WSUKeyChainHelper.m; sourceTree = "<group>"; };
 		9AD742DE107C351841DDEAEA /* Pods_HLIntegrationlibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLIntegrationlibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B339BB194617C4087F3F6D7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CE0F37605D1A6D1A6CE5BB1E /* Pods-HLIntegrationlibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLIntegrationlibrary_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLIntegrationlibrary_Tests/Pods-HLIntegrationlibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -240,6 +243,8 @@
 		930972DC1EF9016700CCB4AE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				930973151EF90D0300CCB4AE /* HL_WSUKeyChainHelper.h */,
+				930973161EF90D0300CCB4AE /* HL_WSUKeyChainHelper.m */,
 				930972E11EF9016700CCB4AE /* NSArray+WSUKit.h */,
 				930972E21EF9016700CCB4AE /* NSArray+WSUKit.m */,
 				930972E31EF9016700CCB4AE /* NSMutableDictionary+WSUKit.h */,
@@ -493,6 +498,7 @@
 				930973061EF9016700CCB4AE /* UIButton+WSUExtensions.m in Sources */,
 				930973031EF9016700CCB4AE /* NSMutableDictionary+WSUKit.m in Sources */,
 				930973021EF9016700CCB4AE /* NSArray+WSUKit.m in Sources */,
+				930973171EF90D0300CCB4AE /* HL_WSUKeyChainHelper.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				9309730E1EF9016700CCB4AE /* WSUAppSkin.m in Sources */,
 				930973111EF9016700CCB4AE /* WSUReachability.m in Sources */,
