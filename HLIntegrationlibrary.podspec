@@ -32,10 +32,10 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'HLIntegrationlibrary/Classes/**/*'
 #// 设置只依赖一个系统的library
-  s.library = 'z'
-# s.libraries = 'z', 'xml2' # 设置依赖多个系统的library
+# s.library = 'z'
+ s.libraries = 'z', '/usr/include' # 设置依赖多个系统的library
 #s.xcconfig = {'HEADER_SEARCH_PATHS' =>'$(SDKROOT)/usr/include'}
-s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/usr/include/CommonCrypto/CommonDigest.h"' }
+#s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/usr/include/CommonCrypto/CommonDigest.h"' }
   # s.resource_bundles = {
   #   'HLIntegrationlibrary' => ['HLIntegrationlibrary/Assets/*.png']
   # }
