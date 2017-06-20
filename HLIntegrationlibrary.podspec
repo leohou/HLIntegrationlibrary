@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
 #s.source_files = 'HLIntegrationlibrary/Classes/**/*'
-s.source_files = 'Example/HLIntegrationlibrary/HLIntegrationlibrary/Classes/**/*.{h,m}'
+s.source_files = 'Example/HLIntegrationlibrary/HLIntegrationlibrary/Classes/**/*'
 #// 设置只依赖一个系统的library
 # s.library = 'z'
  s.libraries = 'z', 'usr/include' # 设置依赖多个系统的library
