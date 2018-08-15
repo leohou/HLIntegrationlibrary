@@ -24,24 +24,38 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		930972881EF8EB3A00CCB4AE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 930972871EF8EB3A00CCB4AE /* libz.tbd */; };
-		930973021EF9016700CCB4AE /* NSArray+WSUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972E21EF9016700CCB4AE /* NSArray+WSUKit.m */; };
-		930973031EF9016700CCB4AE /* NSMutableDictionary+WSUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972E41EF9016700CCB4AE /* NSMutableDictionary+WSUKit.m */; };
-		930973041EF9016700CCB4AE /* NSObject+WSUNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972E61EF9016700CCB4AE /* NSObject+WSUNull.m */; };
-		930973051EF9016700CCB4AE /* NSString+WSUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972E81EF9016700CCB4AE /* NSString+WSUKit.m */; };
-		930973061EF9016700CCB4AE /* UIButton+WSUExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972EA1EF9016700CCB4AE /* UIButton+WSUExtensions.m */; };
-		930973071EF9016700CCB4AE /* UIColor+WSUHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972EC1EF9016700CCB4AE /* UIColor+WSUHexColor.m */; };
-		930973081EF9016700CCB4AE /* UIDevice+HL_WSUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972EE1EF9016700CCB4AE /* UIDevice+HL_WSUKit.m */; };
-		930973091EF9016700CCB4AE /* UIImage+HL_Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972F01EF9016700CCB4AE /* UIImage+HL_Compress.m */; };
-		9309730A1EF9016700CCB4AE /* UIView+WSUFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972F21EF9016700CCB4AE /* UIView+WSUFrame.m */; };
-		9309730B1EF9016700CCB4AE /* UIView+WSUViewKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972F41EF9016700CCB4AE /* UIView+WSUViewKit.m */; };
-		9309730C1EF9016700CCB4AE /* WSUAppSkin+WSUColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972F51EF9016700CCB4AE /* WSUAppSkin+WSUColor.m */; };
-		9309730D1EF9016700CCB4AE /* WSUAppSkin+WSUFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972F61EF9016700CCB4AE /* WSUAppSkin+WSUFont.m */; };
-		9309730E1EF9016700CCB4AE /* WSUAppSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972F81EF9016700CCB4AE /* WSUAppSkin.m */; };
-		9309730F1EF9016700CCB4AE /* WSUITTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972FB1EF9016700CCB4AE /* WSUITTUtility.m */; };
+		930973031EF9016700CCB4AE /* NSMutableDictionary+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972E41EF9016700CCB4AE /* NSMutableDictionary+HLKit.m */; };
 		930973101EF9016700CCB4AE /* WSUMBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972FD1EF9016700CCB4AE /* WSUMBProgressHUD.m */; };
 		930973111EF9016700CCB4AE /* WSUReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 930972FF1EF9016700CCB4AE /* WSUReachability.m */; };
-		930973171EF90D0300CCB4AE /* HL_WSUKeyChainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 930973161EF90D0300CCB4AE /* HL_WSUKeyChainHelper.m */; };
-		9309731A1EF90E3000CCB4AE /* HL_WSUSystemUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 930973191EF90E3000CCB4AE /* HL_WSUSystemUtils.m */; };
+		930973171EF90D0300CCB4AE /* HLKeyChainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 930973161EF90D0300CCB4AE /* HLKeyChainHelper.m */; };
+		932855082122A5E800431699 /* HLSystemUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855072122A5E700431699 /* HLSystemUtils.m */; };
+		9328550B2122A68000431699 /* HLUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9328550A2122A68000431699 /* HLUncaughtExceptionHandler.m */; };
+		932855112122ABB400431699 /* HLGeneralTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855102122ABB400431699 /* HLGeneralTools.m */; };
+		932855142122AD9500431699 /* HLSignalHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855132122AD9500431699 /* HLSignalHandler.m */; };
+		932855172122B8A100431699 /* UIDevice+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855162122B8A100431699 /* UIDevice+HLKit.m */; };
+		9328551A2122B96E00431699 /* NSArray+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855192122B96E00431699 /* NSArray+HLKit.m */; };
+		9328551D2122BFC400431699 /* NSString+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9328551C2122BFC400431699 /* NSString+HLKit.m */; };
+		932855202122CD3200431699 /* CALayer+HLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9328551F2122CD3200431699 /* CALayer+HLLayer.m */; };
+		932855262122CE3400431699 /* Foundation+HLSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855252122CE3400431699 /* Foundation+HLSafe.m */; };
+		932855292122CF5A00431699 /* NSDate+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855282122CF5A00431699 /* NSDate+HLKit.m */; };
+		9328552C2122D01E00431699 /* NSDictionary+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9328552B2122D01E00431699 /* NSDictionary+HLKit.m */; };
+		932855302122DFAB00431699 /* NSFileManager+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9328552F2122DFAB00431699 /* NSFileManager+HLKit.m */; };
+		932855332122E0C200431699 /* NSNumber+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855322122E0C200431699 /* NSNumber+HLKit.m */; };
+		932855362122E10500431699 /* NSObject+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855352122E10500431699 /* NSObject+HLKit.m */; };
+		932855392122E48400431699 /* NSTimer+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855382122E48400431699 /* NSTimer+HLKit.m */; };
+		9328553D2122E57B00431699 /* UIAlertController+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9328553C2122E57B00431699 /* UIAlertController+HLKit.m */; };
+		932855402122E63500431699 /* UIBarButtonItem+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9328553F2122E63500431699 /* UIBarButtonItem+HLKit.m */; };
+		932855432122E71700431699 /* UIButton+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855422122E71700431699 /* UIButton+HLKit.m */; };
+		932855462122E7CD00431699 /* UIColor+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855452122E7CD00431699 /* UIColor+HLKit.m */; };
+		932855492122E8A200431699 /* UIImage+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855482122E8A200431699 /* UIImage+HLKit.m */; };
+		9328554C2122E93C00431699 /* UILabel+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9328554B2122E93C00431699 /* UILabel+HLKit.m */; };
+		9328554F2122EACF00431699 /* UINavigationController+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9328554E2122EACF00431699 /* UINavigationController+HLKit.m */; };
+		932855522122EB0500431699 /* UIScrollView+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855512122EB0500431699 /* UIScrollView+HLKit.m */; };
+		932855552122EB4200431699 /* UIView+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855542122EB4200431699 /* UIView+HLKit.m */; };
+		932855582123C2C300431699 /* UITableView+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855572123C2C300431699 /* UITableView+HLKit.m */; };
+		9328555B2123C4BF00431699 /* UIViewController+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9328555A2123C4BF00431699 /* UIViewController+HLKit.m */; };
+		932855622123CE8900431699 /* HLMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855612123CE8900431699 /* HLMethods.m */; };
+		932855652123D5B400431699 /* NSObject+HLRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855642123D5B400431699 /* NSObject+HLRuntime.m */; };
 		EA5466173E13F60E6B8286AA /* Pods_HLIntegrationlibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD742DE107C351841DDEAEA /* Pods_HLIntegrationlibrary_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,41 +98,75 @@
 		76E8C8BA584AC55F33BAF821 /* HLIntegrationlibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HLIntegrationlibrary.podspec; path = ../HLIntegrationlibrary.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		930972871EF8EB3A00CCB4AE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		930972E11EF9016700CCB4AE /* NSArray+WSUKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WSUKit.h"; sourceTree = "<group>"; };
-		930972E21EF9016700CCB4AE /* NSArray+WSUKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WSUKit.m"; sourceTree = "<group>"; };
-		930972E31EF9016700CCB4AE /* NSMutableDictionary+WSUKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+WSUKit.h"; sourceTree = "<group>"; };
-		930972E41EF9016700CCB4AE /* NSMutableDictionary+WSUKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+WSUKit.m"; sourceTree = "<group>"; };
-		930972E51EF9016700CCB4AE /* NSObject+WSUNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WSUNull.h"; sourceTree = "<group>"; };
-		930972E61EF9016700CCB4AE /* NSObject+WSUNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WSUNull.m"; sourceTree = "<group>"; };
-		930972E71EF9016700CCB4AE /* NSString+WSUKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WSUKit.h"; sourceTree = "<group>"; };
-		930972E81EF9016700CCB4AE /* NSString+WSUKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WSUKit.m"; sourceTree = "<group>"; };
-		930972E91EF9016700CCB4AE /* UIButton+WSUExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WSUExtensions.h"; sourceTree = "<group>"; };
-		930972EA1EF9016700CCB4AE /* UIButton+WSUExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WSUExtensions.m"; sourceTree = "<group>"; };
-		930972EB1EF9016700CCB4AE /* UIColor+WSUHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WSUHexColor.h"; sourceTree = "<group>"; };
-		930972EC1EF9016700CCB4AE /* UIColor+WSUHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WSUHexColor.m"; sourceTree = "<group>"; };
-		930972ED1EF9016700CCB4AE /* UIDevice+HL_WSUKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HL_WSUKit.h"; sourceTree = "<group>"; };
-		930972EE1EF9016700CCB4AE /* UIDevice+HL_WSUKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HL_WSUKit.m"; sourceTree = "<group>"; };
-		930972EF1EF9016700CCB4AE /* UIImage+HL_Compress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HL_Compress.h"; sourceTree = "<group>"; };
-		930972F01EF9016700CCB4AE /* UIImage+HL_Compress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HL_Compress.m"; sourceTree = "<group>"; };
-		930972F11EF9016700CCB4AE /* UIView+WSUFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WSUFrame.h"; sourceTree = "<group>"; };
-		930972F21EF9016700CCB4AE /* UIView+WSUFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WSUFrame.m"; sourceTree = "<group>"; };
-		930972F31EF9016700CCB4AE /* UIView+WSUViewKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WSUViewKit.h"; sourceTree = "<group>"; };
-		930972F41EF9016700CCB4AE /* UIView+WSUViewKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WSUViewKit.m"; sourceTree = "<group>"; };
-		930972F51EF9016700CCB4AE /* WSUAppSkin+WSUColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSUAppSkin+WSUColor.m"; sourceTree = "<group>"; };
-		930972F61EF9016700CCB4AE /* WSUAppSkin+WSUFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSUAppSkin+WSUFont.m"; sourceTree = "<group>"; };
-		930972F71EF9016700CCB4AE /* WSUAppSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUAppSkin.h; sourceTree = "<group>"; };
-		930972F81EF9016700CCB4AE /* WSUAppSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUAppSkin.m; sourceTree = "<group>"; };
-		930972F91EF9016700CCB4AE /* WSUITTCommonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUITTCommonMacros.h; sourceTree = "<group>"; };
-		930972FA1EF9016700CCB4AE /* WSUITTUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUITTUtility.h; sourceTree = "<group>"; };
-		930972FB1EF9016700CCB4AE /* WSUITTUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUITTUtility.m; sourceTree = "<group>"; };
+		930972E31EF9016700CCB4AE /* NSMutableDictionary+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+HLKit.h"; sourceTree = "<group>"; };
+		930972E41EF9016700CCB4AE /* NSMutableDictionary+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+HLKit.m"; sourceTree = "<group>"; };
+		930972F91EF9016700CCB4AE /* HLCommonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCommonMacros.h; sourceTree = "<group>"; };
 		930972FC1EF9016700CCB4AE /* WSUMBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUMBProgressHUD.h; sourceTree = "<group>"; };
 		930972FD1EF9016700CCB4AE /* WSUMBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUMBProgressHUD.m; sourceTree = "<group>"; };
 		930972FE1EF9016700CCB4AE /* WSUReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUReachability.h; sourceTree = "<group>"; };
 		930972FF1EF9016700CCB4AE /* WSUReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUReachability.m; sourceTree = "<group>"; };
-		930973151EF90D0300CCB4AE /* HL_WSUKeyChainHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HL_WSUKeyChainHelper.h; sourceTree = "<group>"; };
-		930973161EF90D0300CCB4AE /* HL_WSUKeyChainHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HL_WSUKeyChainHelper.m; sourceTree = "<group>"; };
-		930973181EF90E3000CCB4AE /* HL_WSUSystemUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HL_WSUSystemUtils.h; path = ../../../../../HL_WSUSystemUtils.h; sourceTree = "<group>"; };
-		930973191EF90E3000CCB4AE /* HL_WSUSystemUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HL_WSUSystemUtils.m; path = ../../../../../HL_WSUSystemUtils.m; sourceTree = "<group>"; };
+		930973151EF90D0300CCB4AE /* HLKeyChainHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLKeyChainHelper.h; sourceTree = "<group>"; };
+		930973161EF90D0300CCB4AE /* HLKeyChainHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLKeyChainHelper.m; sourceTree = "<group>"; };
+		932855062122A5E700431699 /* HLSystemUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLSystemUtils.h; path = ../../../HLIntegrationlibrary/Classes/HLSystemUtils.h; sourceTree = "<group>"; };
+		932855072122A5E700431699 /* HLSystemUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLSystemUtils.m; path = ../../../HLIntegrationlibrary/Classes/HLSystemUtils.m; sourceTree = "<group>"; };
+		932855092122A68000431699 /* HLUncaughtExceptionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		9328550A2122A68000431699 /* HLUncaughtExceptionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLUncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		9328550F2122ABB400431699 /* HLGeneralTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLGeneralTools.h; sourceTree = "<group>"; };
+		932855102122ABB400431699 /* HLGeneralTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLGeneralTools.m; sourceTree = "<group>"; };
+		932855122122AD9500431699 /* HLSignalHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSignalHandler.h; sourceTree = "<group>"; };
+		932855132122AD9500431699 /* HLSignalHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSignalHandler.m; sourceTree = "<group>"; };
+		932855152122B8A100431699 /* UIDevice+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HLKit.h"; sourceTree = "<group>"; };
+		932855162122B8A100431699 /* UIDevice+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HLKit.m"; sourceTree = "<group>"; };
+		932855182122B96E00431699 /* NSArray+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+HLKit.h"; sourceTree = "<group>"; };
+		932855192122B96E00431699 /* NSArray+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HLKit.m"; sourceTree = "<group>"; };
+		9328551B2122BFC400431699 /* NSString+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HLKit.h"; sourceTree = "<group>"; };
+		9328551C2122BFC400431699 /* NSString+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HLKit.m"; sourceTree = "<group>"; };
+		9328551E2122CD3200431699 /* CALayer+HLLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+HLLayer.h"; sourceTree = "<group>"; };
+		9328551F2122CD3200431699 /* CALayer+HLLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+HLLayer.m"; sourceTree = "<group>"; };
+		932855242122CE3400431699 /* Foundation+HLSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foundation+HLSafe.h"; sourceTree = "<group>"; };
+		932855252122CE3400431699 /* Foundation+HLSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Foundation+HLSafe.m"; sourceTree = "<group>"; };
+		932855272122CF5A00431699 /* NSDate+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+HLKit.h"; sourceTree = "<group>"; };
+		932855282122CF5A00431699 /* NSDate+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HLKit.m"; sourceTree = "<group>"; };
+		9328552A2122D01E00431699 /* NSDictionary+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HLKit.h"; sourceTree = "<group>"; };
+		9328552B2122D01E00431699 /* NSDictionary+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HLKit.m"; sourceTree = "<group>"; };
+		9328552E2122DFAB00431699 /* NSFileManager+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+HLKit.h"; sourceTree = "<group>"; };
+		9328552F2122DFAB00431699 /* NSFileManager+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+HLKit.m"; sourceTree = "<group>"; };
+		932855312122E0C200431699 /* NSNumber+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+HLKit.h"; sourceTree = "<group>"; };
+		932855322122E0C200431699 /* NSNumber+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+HLKit.m"; sourceTree = "<group>"; };
+		932855342122E10500431699 /* NSObject+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HLKit.h"; sourceTree = "<group>"; };
+		932855352122E10500431699 /* NSObject+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HLKit.m"; sourceTree = "<group>"; };
+		932855372122E48400431699 /* NSTimer+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+HLKit.h"; sourceTree = "<group>"; };
+		932855382122E48400431699 /* NSTimer+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+HLKit.m"; sourceTree = "<group>"; };
+		9328553A2122E4F800431699 /* HLSerializeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSerializeKit.h; sourceTree = "<group>"; };
+		9328553B2122E57B00431699 /* UIAlertController+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+HLKit.h"; sourceTree = "<group>"; };
+		9328553C2122E57B00431699 /* UIAlertController+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+HLKit.m"; sourceTree = "<group>"; };
+		9328553E2122E63500431699 /* UIBarButtonItem+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HLKit.h"; sourceTree = "<group>"; };
+		9328553F2122E63500431699 /* UIBarButtonItem+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HLKit.m"; sourceTree = "<group>"; };
+		932855412122E71700431699 /* UIButton+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+HLKit.h"; sourceTree = "<group>"; };
+		932855422122E71700431699 /* UIButton+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HLKit.m"; sourceTree = "<group>"; };
+		932855442122E7CD00431699 /* UIColor+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HLKit.h"; sourceTree = "<group>"; };
+		932855452122E7CD00431699 /* UIColor+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HLKit.m"; sourceTree = "<group>"; };
+		932855472122E8A200431699 /* UIImage+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+HLKit.h"; sourceTree = "<group>"; };
+		932855482122E8A200431699 /* UIImage+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HLKit.m"; sourceTree = "<group>"; };
+		9328554A2122E93C00431699 /* UILabel+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+HLKit.h"; sourceTree = "<group>"; };
+		9328554B2122E93C00431699 /* UILabel+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HLKit.m"; sourceTree = "<group>"; };
+		9328554D2122EACF00431699 /* UINavigationController+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HLKit.h"; sourceTree = "<group>"; };
+		9328554E2122EACF00431699 /* UINavigationController+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HLKit.m"; sourceTree = "<group>"; };
+		932855502122EB0500431699 /* UIScrollView+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HLKit.h"; sourceTree = "<group>"; };
+		932855512122EB0500431699 /* UIScrollView+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HLKit.m"; sourceTree = "<group>"; };
+		932855532122EB4200431699 /* UIView+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+HLKit.h"; sourceTree = "<group>"; };
+		932855542122EB4200431699 /* UIView+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLKit.m"; sourceTree = "<group>"; };
+		932855562123C2C300431699 /* UITableView+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+HLKit.h"; sourceTree = "<group>"; };
+		932855572123C2C300431699 /* UITableView+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HLKit.m"; sourceTree = "<group>"; };
+		932855592123C4BF00431699 /* UIViewController+HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HLKit.h"; sourceTree = "<group>"; };
+		9328555A2123C4BF00431699 /* UIViewController+HLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HLKit.m"; sourceTree = "<group>"; };
+		9328555C2123CCEB00431699 /* HLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLKit.h; sourceTree = "<group>"; };
+		9328555D2123CD2E00431699 /* HLMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLMacro.h; sourceTree = "<group>"; };
+		9328555E2123CDF100431699 /* HLSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSingleton.h; sourceTree = "<group>"; };
+		932855602123CE8900431699 /* HLMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLMethods.h; sourceTree = "<group>"; };
+		932855612123CE8900431699 /* HLMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLMethods.m; sourceTree = "<group>"; };
+		932855632123D5B400431699 /* NSObject+HLRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HLRuntime.h"; sourceTree = "<group>"; };
+		932855642123D5B400431699 /* NSObject+HLRuntime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HLRuntime.m"; sourceTree = "<group>"; };
 		9AD742DE107C351841DDEAEA /* Pods_HLIntegrationlibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLIntegrationlibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B339BB194617C4087F3F6D7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CE0F37605D1A6D1A6CE5BB1E /* Pods-HLIntegrationlibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLIntegrationlibrary_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLIntegrationlibrary_Tests/Pods-HLIntegrationlibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -246,41 +294,75 @@
 		930972DC1EF9016700CCB4AE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				930973181EF90E3000CCB4AE /* HL_WSUSystemUtils.h */,
-				930973191EF90E3000CCB4AE /* HL_WSUSystemUtils.m */,
-				930973151EF90D0300CCB4AE /* HL_WSUKeyChainHelper.h */,
-				930973161EF90D0300CCB4AE /* HL_WSUKeyChainHelper.m */,
-				930972E11EF9016700CCB4AE /* NSArray+WSUKit.h */,
-				930972E21EF9016700CCB4AE /* NSArray+WSUKit.m */,
-				930972E31EF9016700CCB4AE /* NSMutableDictionary+WSUKit.h */,
-				930972E41EF9016700CCB4AE /* NSMutableDictionary+WSUKit.m */,
-				930972E51EF9016700CCB4AE /* NSObject+WSUNull.h */,
-				930972E61EF9016700CCB4AE /* NSObject+WSUNull.m */,
-				930972E71EF9016700CCB4AE /* NSString+WSUKit.h */,
-				930972E81EF9016700CCB4AE /* NSString+WSUKit.m */,
-				930972E91EF9016700CCB4AE /* UIButton+WSUExtensions.h */,
-				930972EA1EF9016700CCB4AE /* UIButton+WSUExtensions.m */,
-				930972EB1EF9016700CCB4AE /* UIColor+WSUHexColor.h */,
-				930972EC1EF9016700CCB4AE /* UIColor+WSUHexColor.m */,
-				930972ED1EF9016700CCB4AE /* UIDevice+HL_WSUKit.h */,
-				930972EE1EF9016700CCB4AE /* UIDevice+HL_WSUKit.m */,
-				930972EF1EF9016700CCB4AE /* UIImage+HL_Compress.h */,
-				930972F01EF9016700CCB4AE /* UIImage+HL_Compress.m */,
-				930972F11EF9016700CCB4AE /* UIView+WSUFrame.h */,
-				930972F21EF9016700CCB4AE /* UIView+WSUFrame.m */,
-				930972F31EF9016700CCB4AE /* UIView+WSUViewKit.h */,
-				930972F41EF9016700CCB4AE /* UIView+WSUViewKit.m */,
-				930972F51EF9016700CCB4AE /* WSUAppSkin+WSUColor.m */,
-				930972F61EF9016700CCB4AE /* WSUAppSkin+WSUFont.m */,
-				930972F71EF9016700CCB4AE /* WSUAppSkin.h */,
-				930972F81EF9016700CCB4AE /* WSUAppSkin.m */,
-				930972F91EF9016700CCB4AE /* WSUITTCommonMacros.h */,
-				930972FA1EF9016700CCB4AE /* WSUITTUtility.h */,
-				930972FB1EF9016700CCB4AE /* WSUITTUtility.m */,
+				932855062122A5E700431699 /* HLSystemUtils.h */,
+				932855072122A5E700431699 /* HLSystemUtils.m */,
+				930973151EF90D0300CCB4AE /* HLKeyChainHelper.h */,
+				930973161EF90D0300CCB4AE /* HLKeyChainHelper.m */,
+				930972E31EF9016700CCB4AE /* NSMutableDictionary+HLKit.h */,
+				930972E41EF9016700CCB4AE /* NSMutableDictionary+HLKit.m */,
+				930972F91EF9016700CCB4AE /* HLCommonMacros.h */,
 				930972FC1EF9016700CCB4AE /* WSUMBProgressHUD.h */,
 				930972FD1EF9016700CCB4AE /* WSUMBProgressHUD.m */,
 				930972FE1EF9016700CCB4AE /* WSUReachability.h */,
 				930972FF1EF9016700CCB4AE /* WSUReachability.m */,
+				9328550F2122ABB400431699 /* HLGeneralTools.h */,
+				932855102122ABB400431699 /* HLGeneralTools.m */,
+				932855092122A68000431699 /* HLUncaughtExceptionHandler.h */,
+				9328550A2122A68000431699 /* HLUncaughtExceptionHandler.m */,
+				932855122122AD9500431699 /* HLSignalHandler.h */,
+				932855132122AD9500431699 /* HLSignalHandler.m */,
+				932855152122B8A100431699 /* UIDevice+HLKit.h */,
+				932855162122B8A100431699 /* UIDevice+HLKit.m */,
+				932855182122B96E00431699 /* NSArray+HLKit.h */,
+				932855192122B96E00431699 /* NSArray+HLKit.m */,
+				9328551B2122BFC400431699 /* NSString+HLKit.h */,
+				9328551C2122BFC400431699 /* NSString+HLKit.m */,
+				9328551E2122CD3200431699 /* CALayer+HLLayer.h */,
+				9328551F2122CD3200431699 /* CALayer+HLLayer.m */,
+				932855242122CE3400431699 /* Foundation+HLSafe.h */,
+				932855252122CE3400431699 /* Foundation+HLSafe.m */,
+				932855272122CF5A00431699 /* NSDate+HLKit.h */,
+				932855282122CF5A00431699 /* NSDate+HLKit.m */,
+				9328552A2122D01E00431699 /* NSDictionary+HLKit.h */,
+				9328552B2122D01E00431699 /* NSDictionary+HLKit.m */,
+				9328552E2122DFAB00431699 /* NSFileManager+HLKit.h */,
+				9328552F2122DFAB00431699 /* NSFileManager+HLKit.m */,
+				932855312122E0C200431699 /* NSNumber+HLKit.h */,
+				932855322122E0C200431699 /* NSNumber+HLKit.m */,
+				932855342122E10500431699 /* NSObject+HLKit.h */,
+				932855352122E10500431699 /* NSObject+HLKit.m */,
+				932855632123D5B400431699 /* NSObject+HLRuntime.h */,
+				932855642123D5B400431699 /* NSObject+HLRuntime.m */,
+				932855372122E48400431699 /* NSTimer+HLKit.h */,
+				932855382122E48400431699 /* NSTimer+HLKit.m */,
+				9328553A2122E4F800431699 /* HLSerializeKit.h */,
+				9328553B2122E57B00431699 /* UIAlertController+HLKit.h */,
+				9328553C2122E57B00431699 /* UIAlertController+HLKit.m */,
+				9328553E2122E63500431699 /* UIBarButtonItem+HLKit.h */,
+				9328553F2122E63500431699 /* UIBarButtonItem+HLKit.m */,
+				932855412122E71700431699 /* UIButton+HLKit.h */,
+				932855422122E71700431699 /* UIButton+HLKit.m */,
+				932855442122E7CD00431699 /* UIColor+HLKit.h */,
+				932855452122E7CD00431699 /* UIColor+HLKit.m */,
+				932855472122E8A200431699 /* UIImage+HLKit.h */,
+				932855482122E8A200431699 /* UIImage+HLKit.m */,
+				9328554A2122E93C00431699 /* UILabel+HLKit.h */,
+				9328554B2122E93C00431699 /* UILabel+HLKit.m */,
+				9328554D2122EACF00431699 /* UINavigationController+HLKit.h */,
+				9328554E2122EACF00431699 /* UINavigationController+HLKit.m */,
+				932855502122EB0500431699 /* UIScrollView+HLKit.h */,
+				932855512122EB0500431699 /* UIScrollView+HLKit.m */,
+				932855532122EB4200431699 /* UIView+HLKit.h */,
+				932855542122EB4200431699 /* UIView+HLKit.m */,
+				932855562123C2C300431699 /* UITableView+HLKit.h */,
+				932855572123C2C300431699 /* UITableView+HLKit.m */,
+				932855592123C4BF00431699 /* UIViewController+HLKit.h */,
+				9328555A2123C4BF00431699 /* UIViewController+HLKit.m */,
+				9328555C2123CCEB00431699 /* HLKit.h */,
+				9328555D2123CD2E00431699 /* HLMacro.h */,
+				9328555E2123CDF100431699 /* HLSingleton.h */,
+				932855602123CE8900431699 /* HLMethods.h */,
+				932855612123CE8900431699 /* HLMethods.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -307,8 +389,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				8A2067C1BBB5418C5DCB25E1 /* [CP] Embed Pods Frameworks */,
-				A9FED19FA386247BC67BD14D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -327,8 +407,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				2A3B77B82585E59E64826A74 /* [CP] Embed Pods Frameworks */,
-				CDF5AFD63C72FB449230CF7A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -346,10 +424,14 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = HL_;
+				CLASSPREFIX = HL;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = leohou;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6LUZ4LMDZ4;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -397,79 +479,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2A3B77B82585E59E64826A74 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLIntegrationlibrary_Tests/Pods-HLIntegrationlibrary_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		72BB74BE37C3D5C58EA6EEDC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLIntegrationlibrary_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		8A2067C1BBB5418C5DCB25E1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLIntegrationlibrary_Example/Pods-HLIntegrationlibrary_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A9FED19FA386247BC67BD14D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLIntegrationlibrary_Example/Pods-HLIntegrationlibrary_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CDF5AFD63C72FB449230CF7A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLIntegrationlibrary_Tests/Pods-HLIntegrationlibrary_Tests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E1CBA6D6EAC9AC1CCA826B70 /* [CP] Check Pods Manifest.lock */ = {
@@ -478,13 +503,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLIntegrationlibrary_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -494,27 +522,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9309731A1EF90E3000CCB4AE /* HL_WSUSystemUtils.m in Sources */,
+				932855582123C2C300431699 /* UITableView+HLKit.m in Sources */,
 				6003F59E195388D20070C39A /* HL_AppDelegate.m in Sources */,
-				930973051EF9016700CCB4AE /* NSString+WSUKit.m in Sources */,
-				9309730A1EF9016700CCB4AE /* UIView+WSUFrame.m in Sources */,
+				932855402122E63500431699 /* UIBarButtonItem+HLKit.m in Sources */,
+				932855462122E7CD00431699 /* UIColor+HLKit.m in Sources */,
+				9328551A2122B96E00431699 /* NSArray+HLKit.m in Sources */,
+				9328554F2122EACF00431699 /* UINavigationController+HLKit.m in Sources */,
 				6003F5A7195388D20070C39A /* HL_ViewController.m in Sources */,
-				930973091EF9016700CCB4AE /* UIImage+HL_Compress.m in Sources */,
-				930973041EF9016700CCB4AE /* NSObject+WSUNull.m in Sources */,
-				930973061EF9016700CCB4AE /* UIButton+WSUExtensions.m in Sources */,
-				930973031EF9016700CCB4AE /* NSMutableDictionary+WSUKit.m in Sources */,
-				930973021EF9016700CCB4AE /* NSArray+WSUKit.m in Sources */,
-				930973171EF90D0300CCB4AE /* HL_WSUKeyChainHelper.m in Sources */,
+				932855362122E10500431699 /* NSObject+HLKit.m in Sources */,
+				932855552122EB4200431699 /* UIView+HLKit.m in Sources */,
+				932855332122E0C200431699 /* NSNumber+HLKit.m in Sources */,
+				9328550B2122A68000431699 /* HLUncaughtExceptionHandler.m in Sources */,
+				932855292122CF5A00431699 /* NSDate+HLKit.m in Sources */,
+				930973031EF9016700CCB4AE /* NSMutableDictionary+HLKit.m in Sources */,
+				9328554C2122E93C00431699 /* UILabel+HLKit.m in Sources */,
+				932855262122CE3400431699 /* Foundation+HLSafe.m in Sources */,
+				930973171EF90D0300CCB4AE /* HLKeyChainHelper.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				9309730E1EF9016700CCB4AE /* WSUAppSkin.m in Sources */,
+				932855652123D5B400431699 /* NSObject+HLRuntime.m in Sources */,
+				932855302122DFAB00431699 /* NSFileManager+HLKit.m in Sources */,
+				932855142122AD9500431699 /* HLSignalHandler.m in Sources */,
+				932855522122EB0500431699 /* UIScrollView+HLKit.m in Sources */,
+				932855172122B8A100431699 /* UIDevice+HLKit.m in Sources */,
+				932855392122E48400431699 /* NSTimer+HLKit.m in Sources */,
 				930973111EF9016700CCB4AE /* WSUReachability.m in Sources */,
-				930973081EF9016700CCB4AE /* UIDevice+HL_WSUKit.m in Sources */,
-				9309730B1EF9016700CCB4AE /* UIView+WSUViewKit.m in Sources */,
-				9309730C1EF9016700CCB4AE /* WSUAppSkin+WSUColor.m in Sources */,
-				9309730D1EF9016700CCB4AE /* WSUAppSkin+WSUFont.m in Sources */,
+				932855082122A5E800431699 /* HLSystemUtils.m in Sources */,
+				9328553D2122E57B00431699 /* UIAlertController+HLKit.m in Sources */,
+				9328552C2122D01E00431699 /* NSDictionary+HLKit.m in Sources */,
+				9328555B2123C4BF00431699 /* UIViewController+HLKit.m in Sources */,
 				930973101EF9016700CCB4AE /* WSUMBProgressHUD.m in Sources */,
-				9309730F1EF9016700CCB4AE /* WSUITTUtility.m in Sources */,
-				930973071EF9016700CCB4AE /* UIColor+WSUHexColor.m in Sources */,
+				9328551D2122BFC400431699 /* NSString+HLKit.m in Sources */,
+				932855202122CD3200431699 /* CALayer+HLLayer.m in Sources */,
+				932855492122E8A200431699 /* UIImage+HLKit.m in Sources */,
+				932855112122ABB400431699 /* HLGeneralTools.m in Sources */,
+				932855622123CE8900431699 /* HLMethods.m in Sources */,
+				932855432122E71700431699 /* UIButton+HLKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,12 +684,16 @@
 			baseConfigurationReference = 2528E251532F85B912FEA7F6 /* Pods-HLIntegrationlibrary_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6LUZ4LMDZ4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HLIntegrationlibrary/HLIntegrationlibrary-Prefix.pch";
 				INFOPLIST_FILE = "HLIntegrationlibrary/HLIntegrationlibrary-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5fa80678-2b5b-4a4f-9169-75e61ebb47b6";
+				PROVISIONING_PROFILE_SPECIFIER = weisai_test;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -657,12 +703,15 @@
 			baseConfigurationReference = 1C26DB7FA9B004D1F29DA137 /* Pods-HLIntegrationlibrary_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HLIntegrationlibrary/HLIntegrationlibrary-Prefix.pch";
 				INFOPLIST_FILE = "HLIntegrationlibrary/HLIntegrationlibrary-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -7,6 +7,7 @@
 //
 
 #import "HL_ViewController.h"
+#import <sys/utsname.h>
 @interface HL_ViewController ()
 
 @end
@@ -17,13 +18,18 @@
 {
     [super viewDidLoad];
 
+    [self getIphoneType];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(NSString *)getIphoneType{
+    struct utsname systemInfo;
+    uname(&systemInfo);
+    NSString *platform = [NSString stringWithCString:systemInfo.machine encoding:NSASCIIStringEncoding];
+    if ([platform isEqualToString:@"iPhone4,1"]) return @"iPhone 4S";
+    return platform;
 }
+
 
 @end
